@@ -4,7 +4,7 @@ function Project() {
 	return (
 		<>
 			<MainLayout showNavbar={false} showFooter={false}>
-				<h1>Pages Not Found (code: 404)</h1>
+				<h1>Project</h1>
 			</MainLayout>
 		</>
 	);
