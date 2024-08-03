@@ -15,7 +15,7 @@ function App() {
 			<Route path="/" component={Testing} />
 			<Route path="/project">
 				<Route path="/" component={Project} />
-				<Route path="/:project-name" component={DetailProject}/>
+				<Route path="/:projectName" component={DetailProject}/>
 			</Route>
 			<Route path="/*404" component={NotFound} />
 		</Router>
