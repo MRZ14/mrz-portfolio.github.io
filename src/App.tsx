@@ -13,8 +13,10 @@ function App() {
 	return (
 		<Router root={MainLayout}>
 			<Route path="/" component={Testing} />
-			<Route path="/project" component={Project}/>
-			<Route path="/detail-project" component={DetailProject}/>
+			<Route path="/project">
+				<Route path="/" component={Project} />
+				<Route path="/:project-name" component={DetailProject}/>
+			</Route>
 			<Route path="/*404" component={NotFound} />
 		</Router>
 		// <Router>
