@@ -4,8 +4,8 @@ import "/src/assets/css/App.css"
 
 const Home = lazy(() => import("./pages/home"))
 const NotFound = lazy(() => import("./pages/notFound"))
-const Project = lazy(() => import("./pages/project"))
-const DetailProject = lazy(() => import("./pages/detailProject"))
+const Project = lazy(() => import("./pages/projects/project"))
+const DetailProject = lazy(() => import("./pages/projects/detailProject"))
 
 function App() {
 	return (
