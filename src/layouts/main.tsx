@@ -1,16 +1,14 @@
-import "/src/assets/css/App.css";
+import { MainLayoutProps } from "./components";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import {ParentComponent } from "solid-js";
 
-function MainLayout(props: any) {
-	const showNavbar: boolean = props.showNavbar;
-	const showFooter: boolean = props.showFooter;
-
+const MainLayout: ParentComponent<MainLayoutProps> = (props) => {
 	return (
 		<>
-			{showNavbar && <Navbar />}
+			{props.showNavbar && <Navbar />}
 				<div class="main-content">{props.children}</div>
-			{showFooter && <Footer />}
+			{props.showFooter && <Footer />}
 		</>
 	);
 }
