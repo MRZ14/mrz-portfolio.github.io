@@ -1,0 +1,22 @@
+pages:  - Home
+        - Project
+        - Detail-Project
+
+navigation: - Home
+            - Project
+            - Sosmed
+
+- Home:
+    - About me
+    - Programming language
+    - Preview Project
+    - contact us
+
+- Project:
+    - Project Image
+    - About Project
+    - Programming language
+
+- Sosmed:
+    (design with 2.5D)
+    - Social Media with
