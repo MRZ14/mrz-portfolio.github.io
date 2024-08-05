@@ -10,7 +10,7 @@ navigation: - Home
     - About me
     - Programming language
     - Preview Project
-    - contact us
+    - contact us (not sure)
 
 - Project:
     - Project Image
