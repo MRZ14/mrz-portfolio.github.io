@@ -10,6 +10,12 @@ const DetailProject = lazy(() => import("./pages/projects/detailProject"));
 function App() {
     return (
         <Router>
+            <Route
+                path="/"
+                component={() =>
+                    (window.location.href = window.location.origin + "/en/")
+                }
+            />
             <Route path="/:lang">
                 <Route path="/" component={Home} />
                 <Route path="/project">
