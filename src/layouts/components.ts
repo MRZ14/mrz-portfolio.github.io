@@ -1,6 +1,7 @@
 import { ParentProps } from "solid-js";
 
 export type MainLayoutProps = ParentProps & {
-	showNavbar: boolean
-	showFooter: boolean
-}
+    showNavbar: boolean;
+    showFooter: boolean;
+    lang: string;
+};
