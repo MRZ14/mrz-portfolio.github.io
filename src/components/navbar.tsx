@@ -12,7 +12,7 @@ const Navbar: Component<NavbarProps> = (props): JSXElement => {
     } else {
         return (
             <>
-                <nav id="navbar" class="md:container md:mx-auto md:pt-10">
+                <nav id="navbar" class="container mx-auto pt-10">
                     <section class="flex justify-around shadow-[0.4rem_0.4rem_0.4rem_0_rgb(209,213,219),-0.4rem_-0.4rem_0.4rem_0_rgb(255,255,255)] py-3 border rounded-md">
                         <span class="flex flex-col justify-center">
                             <A href={url()} class="text-xl">
