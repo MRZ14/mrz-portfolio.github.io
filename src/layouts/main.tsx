@@ -8,7 +8,9 @@ const MainLayout: ParentComponent<MainLayoutProps> = (props): JSXElement => {
         <>
             <main class="bg-[#F2F3F9]">
                 {props.showNavbar && <Navbar lang={props.lang} />}
-                <section class="main-content">{props.children}</section>
+                <section class="main-content container mx-auto">
+                    {props.children}
+                </section>
                 {props.showFooter && <Footer lang={props.lang} />}
             </main>
         </>
